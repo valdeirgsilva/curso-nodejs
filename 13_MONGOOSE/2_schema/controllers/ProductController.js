@@ -52,6 +52,6 @@ module.exports = class ProductController {
 
     await product.updateProduct(id);
 
-    res.redirect('/products');
+    req.redirect('/products');
   }
 }
